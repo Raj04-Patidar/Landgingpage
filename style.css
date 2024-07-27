@@ -1,0 +1,125 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image:url('background 1.jpg');
+    background-size: 100%;
+    background-attachment:fixed;
+}
+.logo{
+    width:90px;
+    height:90px;
+    background-image: url('logo.jpg');
+    background-size:cover;
+}
+.top{
+    width: 100%;
+    display: Flex;
+    flex-wrap: wrap;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color:white;
+}
+li{
+    margin:0px 50px;
+    font-size:18px;
+    font-weight:600;
+}
+li:hover{
+    color:green;
+    text-decoration:underline;
+    text-decoration-style:dotted;
+    text-underline-position:under;
+}
+.addcart_loginbutton{
+    background-color:white;
+    width:170px;
+    height:40px;
+    position:relative;
+    right: -550px;
+    margin-top:10px;
+    border-radius:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.login{
+    background-color: green;
+    color:white;
+    padding:5px 20px;
+    border-radius:20px;
+    margin-left: 20px; 
+}
+.login:hover{
+    background-color:red;
+}
+i:hover{
+    color:green;
+}
+
+.heading{
+    height:80%;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    color:white;
+}
+.SocialMedia{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.line1,.line2{
+    height:100px;
+    width:2px;
+    border-radius:10px;
+}
+.line1{
+    background-image: linear-gradient(white,black);
+}
+.line2{
+    background-image:linear-gradient(black,white);
+}
+.SocialMedia i{
+    margin:10px;
+}
+.content{
+    margin-left:100px;
+}
+h2{
+    font-size: 50px;
+    color:white;
+}
+.foodplace{
+    font-size:30px;
+    font-weight: 900;
+}
+
+p:nth-child(4){
+    width:400px;
+    font-size:16px;
+    margin:20px 0px;
+}
+button{
+    width:170px;
+    height: 50px;
+    background-color:green;
+    border:none;
+    border-radius:50px;
+    color:white;
+    font-size:18px;
+    letter-spacing:1px;
+}
+button:hover{
+    box-shadow:-5px -5px 15px rgba(0,255,0,0.5),
+    5px 5px 15px rgba(0,255,0,0.5)
+}
